@@ -8,9 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DMHDetailViewController : UIViewController
+@interface DMHDetailViewController : UITableViewController
 
-@property (strong, nonatomic) id detailItem;
-
-@property (weak, nonatomic) IBOutlet UILabel *detailDescriptionLabel;
 @end

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B1963DBA1988BDAC00D0ABFE"
+               BlueprintIdentifier = "B1963D761988B57E00D0ABFE"
                BuildableName = "BugDemo.app"
                BlueprintName = "BugDemo"
                ReferencedContainer = "container:BugDemo.xcodeproj">
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B1963DDE1988BDAC00D0ABFE"
+               BlueprintIdentifier = "B1963D9A1988B57E00D0ABFE"
                BuildableName = "BugDemoTests.xctest"
                BlueprintName = "BugDemoTests"
                ReferencedContainer = "container:BugDemo.xcodeproj">
@@ -42,7 +42,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B1963DBA1988BDAC00D0ABFE"
+            BlueprintIdentifier = "B1963D761988B57E00D0ABFE"
             BuildableName = "BugDemo.app"
             BlueprintName = "BugDemo"
             ReferencedContainer = "container:BugDemo.xcodeproj">
@@ -61,7 +61,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B1963DBA1988BDAC00D0ABFE"
+            BlueprintIdentifier = "B1963D761988B57E00D0ABFE"
             BuildableName = "BugDemo.app"
             BlueprintName = "BugDemo"
             ReferencedContainer = "container:BugDemo.xcodeproj">
@@ -79,7 +79,7 @@
       <BuildableProductRunnable>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "B1963DBA1988BDAC00D0ABFE"
+            BlueprintIdentifier = "B1963D761988B57E00D0ABFE"
             BuildableName = "BugDemo.app"
             BlueprintName = "BugDemo"
             ReferencedContainer = "container:BugDemo.xcodeproj">

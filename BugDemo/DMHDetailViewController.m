@@ -9,29 +9,16 @@
 #import "DMHDetailViewController.h"
 
 @interface DMHDetailViewController ()
-- (void)configureView;
+@property (weak, nonatomic) IBOutlet UITextField *theTextField;
 @end
 
 @implementation DMHDetailViewController
 
 #pragma mark - Managing the detail item
-
-- (void)setDetailItem:(id)newDetailItem
+- (IBAction)saveData:(id)sender
 {
-    if (_detailItem != newDetailItem) {
-        _detailItem = newDetailItem;
-        
-        // Update the view.
-        [self configureView];
-    }
-}
-
-- (void)configureView
-{
-    // Update the user interface for the detail item.
-
-    if (self.detailItem) {
-        self.detailDescriptionLabel.text = [self.detailItem description];
+    if (sender == self.theTextField) {
+        NSLog(@"Got a value from the text field: %@.", self.theTextField.text);
     }
 }
 
@@ -39,7 +26,6 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    [self configureView];
 }
 
 - (void)didReceiveMemoryWarning
