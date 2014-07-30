@@ -55,7 +55,6 @@
                             </tableViewSection>
                         </sections>
                         <connections>
-                            <outlet property="dataSource" destination="pGg-6v-bdr" id="P41-gY-KXY"/>
                             <outlet property="delegate" destination="pGg-6v-bdr" id="Y6K-Cp-Qkv"/>
                         </connections>
                     </tableView>
@@ -106,7 +105,6 @@
                             </tableViewSection>
                         </sections>
                         <connections>
-                            <outlet property="dataSource" destination="yZq-Yi-1dB" id="tRM-oK-fNS"/>
                             <outlet property="delegate" destination="yZq-Yi-1dB" id="EvO-xr-lGB"/>
                         </connections>
                     </tableView>
